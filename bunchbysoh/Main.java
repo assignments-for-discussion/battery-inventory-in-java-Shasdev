@@ -60,8 +60,6 @@ public class Main {
     assert(maxCapacityCounts.healthy == 2);
     assert(maxCapacityCounts.exchange == 1);
     assert(maxCapacityCounts.failed == 0);
-
-    
    
     System.out.println("Count of healthy batteries : "+counts.healthy+"\n");
     System.out.println("Count of exchange batteries : "+counts.exchange+"\n");
